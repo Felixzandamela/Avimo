@@ -36,4 +36,6 @@ SystemJS.config({
   transpiler:'plugin-babel'
 });
 
-SystemJS.import('./src/index').catch(console.error.bind(console));
+SystemJS.import('./src/index').then(()=>{
+  console.log("Modulo carregado con sucesso");
+}).catch((error)=>{console.error.bind(console)});
