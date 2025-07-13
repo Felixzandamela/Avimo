@@ -898,7 +898,7 @@ a{cursor: none;}
   display: flex;
   align-items:center;
 }
-.footer-logo{
+.copyrigths_logo{
   line-break: anywhere;
   overflow:hidden;
   display:-webkit-box;
