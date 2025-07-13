@@ -142,7 +142,7 @@ const FooterCopyRights = ({language, onChanges}) => {
   
   return(
     <div className="footer-copyrigths flex_c_c">
-      <div className="footer-copyrigth_card flex_b"><small><Link to="/" className="a">©{document.location.hostname} S.A</Link> {new Date().getFullYear()} {texts.copyrigths[language]}</small>
+      <div className="footer-copyrigth_card flex_b"><small><Link to="/" className="a copyrigths_logo">©{document.location.hostname} S.A</Link> {new Date().getFullYear()} {texts.copyrigths[language]}</small>
         <div onMouseOut={handleToggle} onClick={toggleLanguageMenu} className={open && "active footer-language-selected" || "footer-language-selected"}>
           <div className="flex_s_c">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-translate" viewBox="0 0 16 16">
