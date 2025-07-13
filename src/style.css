@@ -922,6 +922,7 @@ a{cursor: none;}
 
 .footer-logo span{
   color: #fff;
+  word-break: break-word;
 }
 
 .div-newsletter{
