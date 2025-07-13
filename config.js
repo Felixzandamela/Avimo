@@ -38,4 +38,8 @@ SystemJS.config({
 
 SystemJS.import('./src/index').then(()=>{
   console.log("Modulo carregado con sucesso");
-}).catch((error)=>{console.error.bind(console)});
+}).catch((error)=>{
+  window.location.reload();
+  console.log(error);
+  console.error.bind(console);
+});
