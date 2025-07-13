@@ -37,7 +37,7 @@ SystemJS.config({
 });
 
 SystemJS.import('./src/index').then(()=>{
-  console.log("Modulo carregado con sucesso");
+  console.log("Modulos carregados com sucesso");
 }).catch((error)=>{
   window.location.reload();
   console.log(error);
