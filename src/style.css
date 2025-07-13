@@ -898,6 +898,14 @@ a{cursor: none;}
   display: flex;
   align-items:center;
 }
+.footer-logo{
+  line-break: anywhere;
+  overflow:hidden;
+  display:-webkit-box;
+  -webkit-line-clamp:1;
+  -webkit-box-orient:vertical;
+  text-overflow:ellipsis;
+}
 
 .footer-middle-contents{
   display: flex;
@@ -922,7 +930,6 @@ a{cursor: none;}
 
 .footer-logo span{
   color: #fff;
-  word-break: break-word;
 }
 
 .div-newsletter{
